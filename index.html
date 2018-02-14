@@ -1,0 +1,787 @@
+<!DOCTYPE html><html><head>    
+    <meta charset="UTF-8">
+    <meta name="generator" content="Silex v2.2.7">
+    <!-- leave this for stats -->
+    <script type="text/javascript" src="js/jquery.js" data-silex-static=""></script>
+    <script type="text/javascript" src="js/jquery-ui.js" data-silex-static=""></script>
+
+    <script type="text/javascript" src="js/pageable.js" data-silex-static=""></script>
+    <script type="text/javascript" src="js/front-end.js" data-silex-static=""></script>
+    <!-- Normalize -->
+    <link href="css/normalize.css" rel="stylesheet" data-silex-static="">
+    <!-- Silex style -->
+    <link href="css/front-end.css" rel="stylesheet" data-silex-static="">
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+    <title>Food and drink template</title>
+    <meta name="description" content="The description displayed in search results">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Check this site, friends!">
+    <meta name="og:title" content="Check this site, friends!">
+    <meta name="twitter:description" content="The description displayed in social networks">
+    <meta name="og:description" content="The description displayed in social networks">
+    <meta name="twitter:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="og:image" content="http://localhost:6805/api/1.0/www/exec/get//tmp/food-and-drink/assets/lunch.jpg">
+    <meta name="twitter:site" content="@silexlabs">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2.2" data-silex-viewport="">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <style id="current-page-style">
+        .page-questions- {
+            display: inherit;
+        }
+    </style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
+    <link href="css/styles.css" rel="stylesheet">    <script src="js/script.js" type="text/javascript"></script></head><body class="body-initial editable-plugin-created enable-mobile silex-runtime silex-published">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII=" class="silex-element-content"></div>
+
+        <a id="page-home" data-silex-type="page" class="page-element">Home</a><a id="page-our-company" data-silex-type="page" class="page-element">Our Company</a><a class="page-element" data-silex-type="page" id="page-how-it-works-">How It Works!</a>
+        <a class="page-element page-link-active" data-silex-type="page" id="page-questions-">Questions?</a><a id="page-contact-us" data-silex-type="page" class="page-element">Contact Us</a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484949224320-1 section-element" data-silex-id="silex-id-1484949224320-1">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1484949224320-0 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949224320-0">
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499367469290-41 paged-element page-how-it-works-" data-silex-id="silex-id-1499367469290-41"><img src="assets/banner.png" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1499359978364-21 image-element page-home paged-element" data-silex-id="silex-id-1499359978364-21"><img src="assets/banner.png" class="silex-element-content"></div>
+
+
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style silex-id-1499357737734-18 text-element page-home paged-element" data-silex-id="silex-id-1499357737734-18">
+                <div class="silex-element-content normal">
+                    <font size="6" color="#ffffff" face="Londrina Solid"><b>Renewed Solutions, LLC.</b></font>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1499360053271-23 image-element page-home paged-element" data-silex-id="silex-id-1499360053271-23"><img src="assets/cash-in-hand.png" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499360846132-25 page-our-company paged-element" data-silex-id="silex-id-1499360846132-25"><img src="assets/banner.png" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499360846165-26 page-our-company paged-element" data-silex-id="silex-id-1499360846165-26"><img src="assets/cash-in-hand.png" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499361031733-27 page-our-company paged-element" data-silex-id="silex-id-1499361031733-27">
+                <div class="silex-element-content normal">
+                    <font size="6" color="#ffffff" face="Londrina Solid"><b>Renewed Solutions, LLC.</b></font>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499367448067-40 paged-element page-how-it-works-" data-silex-id="silex-id-1499367448067-40"><img src="assets/cash-in-hand.png" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499368150580-42 paged-element page-how-it-works-" data-silex-id="silex-id-1499368150580-42">
+                <div class="silex-element-content normal">
+                    <font size="6" color="#ffffff" face="Londrina Solid"><b>Renewed Solutions, LLC.</b></font>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499370064777-51 page-questions- paged-element" data-silex-id="silex-id-1499370064777-51"><img src="assets/banner.png" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499370064819-53 page-questions- paged-element" data-silex-id="silex-id-1499370064819-53">
+                <div class="silex-element-content normal">
+                    <font size="6" color="#ffffff" face="Londrina Solid"><b>Renewed Solutions, LLC.</b></font>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499370064812-52 page-questions- paged-element" data-silex-id="silex-id-1499370064812-52"><img src="assets/cash-in-hand.png" class="silex-element-content"></div>
+
+            <div data-silex-type="container" class="editable-style silex-id-1424710230648 container-element hide-on-mobile" data-silex-id="silex-id-1424710230648">
+
+
+
+
+
+
+
+
+                <div data-silex-type="container" class="editable-style container-element silex-id-1424710433398 editable-plugin-created" data-silex-id="silex-id-1424710433398">
+
+                </div>
+                <a data-silex-type="text" class="editable-style text-element silex-id-1424710332527 nav-element" data-silex-id="silex-id-1424710332527" href="#!page-home">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Home</div>
+                    </div>
+                </a>
+                <div data-silex-type="container" class="editable-style silex-id-1426536866650 editable-plugin-created container-element" data-silex-id="silex-id-1426536866650">
+
+                </div>
+                <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1434425184890-0" data-silex-id="silex-id-1434425184890-0" href="#!page-our-company">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Our Company</div>
+                    </div>
+                </a>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1434634286306-0" data-silex-id="silex-id-1434634286306-0">
+
+
+                </div>
+                <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1434634286307-1" data-silex-id="silex-id-1434634286307-1" href="#!page-how-it-works-">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">How It Works!</div>
+                    </div>
+                </a>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1434634331833-2" data-silex-id="silex-id-1434634331833-2">
+
+
+                </div>
+                <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1434634331834-3 page-link-active" data-silex-id="silex-id-1434634331834-3" href="#!page-questions-">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Questions?</div>
+                    </div>
+                </a>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1499368254200-43 page-questions- paged-element" data-silex-id="silex-id-1499368254200-43">
+
+
+                </div>
+                <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499368254200-44" data-silex-id="silex-id-1499368254200-44" href="#!page-contact-us">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Contact Us</div>
+                    </div>
+                </a>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499375888278-78 page-contact-us paged-element" data-silex-id="silex-id-1499375888278-78"><img src="assets/banner.png" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499375888319-79 page-contact-us paged-element" data-silex-id="silex-id-1499375888319-79">
+                <div class="silex-element-content normal">
+                    <font size="6" color="#ffffff" face="Londrina Solid"><b>Renewed Solutions, LLC.</b></font>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499375888327-80 page-contact-us paged-element" data-silex-id="silex-id-1499375888327-80"><img src="assets/cash-in-hand.png" class="silex-element-content"></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484949486466-5 section-element page-home paged-element" data-silex-id="silex-id-1484949486466-5">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1484949486465-4 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949486465-4">
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499362147603-29" data-silex-id="silex-id-1499362147603-29">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">We do all the work...</h1>
+                    <h1 class="heading1"><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span><span>&nbsp;&nbsp; &nbsp;</span>You just wait for the check!</h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style silex-id-1499356265264-4 text-element" data-silex-id="silex-id-1499356265264-4">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);"><strong><font size="4">We've all heard that if it sounds too good to be true. . . it probably is.</font></strong></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);"><span style="font-size: large;">Well, rest assured, this isn't one of "those" things, and if you give us the opportunity, we'll prove to you the funds we've identified are yours.</span></p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Give us a call and let us show you what our research has uncovered. You won't believe it until you see it.&nbsp;Renewed Home Solutions LLC representatives audit government agencies throughout the country, digging through their
+                            public records in search of lost, missing, and unclaimed funds belonging to private citizens.</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">If you've received a letter, postcard, or telephone call from our organization, it's because we've located funds we believe belong to you. Call us now! We're available now at (832) 582 - 0662.</font>
+                    </p>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1499365254805-33 image-element" data-silex-id="silex-id-1499365254805-33"><img src="assets/woman-laying-on-money2.jpg" class="silex-element-content"></div>
+
+            <div data-silex-type="image" class="editable-style silex-id-1499365972465-34 image-element" data-silex-id="silex-id-1499365972465-34"><img src="assets/clocks.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style silex-id-1499356527721-6 text-element" data-silex-id="silex-id-1499356527721-6">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Now, be careful, because these funds are held for only a brief period of time, after which the agency responsible for them&nbsp;may be&nbsp;permitted to seize them through a process called "escheatment."</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">We think private citizens losing their funds to faceless government agencies (a system rooted in feudal 16th century England) is completely unfair and we are determined to prevent this from happening to anyone, especially you.</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484949640479-7 section-element paged-element page-our-company" data-silex-id="silex-id-1484949640479-7">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1484949640479-6 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949640479-6">
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1434426485636-2" data-silex-id="silex-id-1434426485636-2">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Our Company</h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1434426485665-3" data-silex-id="silex-id-1434426485665-3">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Renewed Home Solutions LLC is a small group of abandoned money professionals located in Texas. If you've received a call or a letter from us, it's because we've found funds being held by the government that may be rightfully yours.</font>
+                    </p>
+                    <p class="normal">
+                        <font size="4"><span style="background-color: rgb(255, 255, 255); font-family: Arial, Helvetica, sans-serif;">We know the "ins and outs" of government agencies in all states. If a government agency is holding your funds, we know how to get them! Since after a certain period of time elapses, the government may get to keep your funds, it's always best to have professionals on your side.</span>&nbsp;</font>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1434426613625-5" data-silex-id="silex-id-1434426613625-5">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Our Mission&nbsp;</h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1434426613658-6" data-silex-id="silex-id-1434426613658-6">
+                <div class="silex-element-content normal">
+                    <p class="normal"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);"><font size="4">If a claim for your funds isn't made in time, the funds often "escheat" to the agency holding them, meaning you can no longer claim them. It's your money, and the government shouldn't be able to take it from you. Our mission is to ensure that this never, ever happens. We audit government files and documents for these unclaimed funds, and when we find them, we make it our personal mission to reunite them with their rightful owner.</font></span></p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499362813061-30" data-silex-id="silex-id-1499362813061-30">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Our Vision</h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499362873234-31" data-silex-id="silex-id-1499362873234-31">
+                <div class="silex-element-content normal">
+                    <p class="normal"><span style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);"><font size="4">We'd love to see you reclaim the funds we've found for you! What&nbsp;would you do with a nice, unexpected payday? In this economy, everyone's got a use for extra money. Let's make sure the government doesn't end up with it!</font></span></p>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499366117468-36" data-silex-id="silex-id-1499366117468-36"><img src="assets/clocks.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499366117433-35" data-silex-id="silex-id-1499366117433-35">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Now, be careful, because these funds are held for only a brief period of time, after which the agency responsible for them&nbsp;may be&nbsp;permitted to seize them through a process called "escheatment."</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">We think private citizens losing their funds to faceless government agencies (a system rooted in feudal 16th century England) is completely unfair and we are determined to prevent this from happening to anyone, especially you.</font>
+                    </p>
+                </div>
+            </div>
+            <div data-silex-type="container" class="editable-style silex-id-1434426787582-9 container-element" data-silex-id="silex-id-1434426787582-9"></div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484949717487-9 section-element page-how-it-works- paged-element" data-silex-id="silex-id-1484949717487-9">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1484949717486-8 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949717486-8">
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499369853872-49" data-silex-id="silex-id-1499369853872-49"><img src="assets/clocks.jpg" class="silex-element-content"></div>
+
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499369116679-45" data-silex-id="silex-id-1499369116679-45">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">How It Works!</h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499369853930-50" data-silex-id="silex-id-1499369853930-50">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Now, be careful, because these funds are held for only a brief period of time, after which the agency responsible for them&nbsp;may be&nbsp;permitted to seize them through a process called "escheatment."</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">We think private citizens losing their funds to faceless government agencies (a system rooted in feudal 16th century England) is completely unfair and we are determined to prevent this from happening to anyone, especially you.</font>
+                    </p>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1499372489200-67 image-element" data-silex-id="silex-id-1499372489200-67"><img src="assets/magnifier.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499369116713-46" data-silex-id="silex-id-1499369116713-46">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">The Audit</font>
+                    </h1>
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4">Renewed Home Solutions LLC audits many governmental agencies across the country to locate sums of money owed to private individuals and companies. If these funds go unclaimed for too long, they are usually lost to the government
+                                agency holding them.</font>
+                        </p>
+                    </h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499369293318-48" data-silex-id="silex-id-1499369293318-48">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">Call Us!</font>
+                    </h1>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);"><span style="font-size: large;">If you've received a phone call or a letter from us, we have located funds that we believe belong to you. Please contact us by phone as soon as possible so we can start your claim at (832) 582 - 0662.</span></p>
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">Paperwork and Payment</font>
+                    </h1>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Once you have spoken to one of our agents and verbally agreed to let us work your claim, we will set up a time for you to sign several pages of paperwork to allow us to get started.</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Our firm works on a contingent basis - there are no out-of-pocket expenses to you. We're paid ONLY upon successful collection of your claim. We cover ALL expenses related to the claim until it is paid, and if the claim is unsuccessful
+                            you owe us nothing.</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">After receiving our paperwork package, we will send a local notary to collect it from you and overnight it back to our office. Claims are usually processed in 2-4 weeks, and your share of the claim, typically 50-60% of the funds
+                            collected, are remitted to you within 30 days of receipt.</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style section-element silex-id-1499373306852-68 page-contact-us paged-element" data-silex-id="silex-id-1499373306852-68">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-container-content container-element prevent-draggable silex-id-1499373306852-69" data-silex-id="silex-id-1499373306852-69">
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499373306854-72" data-silex-id="silex-id-1499373306854-72">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">Renewed Home Solutions LLC&nbsp;<br><br>Houston Texas 77077&nbsp;<br>(832) 582 - 0662</font>
+                    </h1>
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4">Feel free to call or email me at info@renewedhomesolutions.com</font>
+                        </p>
+                    </h1>
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">Your Representative:</font>
+                    </h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499373306855-73" data-silex-id="silex-id-1499373306855-73">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Contact Us</h1>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499373306852-70" data-silex-id="silex-id-1499373306852-70"><img src="assets/clocks.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499373306857-75" data-silex-id="silex-id-1499373306857-75">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Now, be careful, because these funds are held for only a brief period of time, after which the agency responsible for them&nbsp;may be&nbsp;permitted to seize them through a process called "escheatment."</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">We think private citizens losing their funds to faceless government agencies (a system rooted in feudal 16th century England) is completely unfair and we are determined to prevent this from happening to anyone, especially you.</font>
+                    </p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499375740206-77" data-silex-id="silex-id-1499375740206-77">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <font size="4">Rene Stewart&nbsp;<br></font>
+                    </h1>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style silex-id-1499375696655-76 image-element" data-silex-id="silex-id-1499375696655-76"><img src="assets/me%20-%20cropped%20light%20blue%20shirt.jpg" class="silex-element-content"></div>
+            <div data-silex-type="image" class="editable-style silex-id-1499377396657-94 image-element" data-silex-id="silex-id-1499377396657-94"><img src="assets/phone-handset-elements-lite-icon_Myvue6U__L.png" class="silex-element-content"></div>
+        </div>
+    </div>
+
+
+
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style section-element silex-id-1499376312046-83 page-questions- paged-element" data-silex-id="silex-id-1499376312046-83">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-container-content container-element prevent-draggable silex-id-1499376312046-84" data-silex-id="silex-id-1499376312046-84">
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div data-silex-type="image" class="editable-style silex-id-1499376393656-92 image-element" data-silex-id="silex-id-1499376393656-92"><img src="assets/questions-brown2.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499376312051-89" data-silex-id="silex-id-1499376312051-89">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4"><strong>How Did You Find This Money?<br></strong>We audit different government agencies on a regular basis for unclaimed funds due to citizens like yourself.</font>
+                        </p>
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;"><strong style="font-size: large;">How Did You Find Me?<br></strong><span style="font-size: large;">We usually locate our clients by doing internet searches.</span></p>
+                    </h1>
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);">
+                    </h1>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499376312053-90" data-silex-id="silex-id-1499376312053-90">
+                <div class="silex-element-content normal">
+                    <h1 style="font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif; color: rgb(0, 0, 85); background-color: rgb(255, 255, 255);"><strong style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 2em;"><font size="4">How Much is My Claim? Where is it Being Held?</font></strong>
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4">Once you have signed our contingency fee agreement, we'll be happy to disclose where the funds have been located!</font>
+                        </p>
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4"><strong>Can't I Find the Money on my Own?<br></strong>The governmental agencies we audit typically DO NOT post these unclaimed funds accounts online. You are welcome to search state unclaimed funds websites, but if you find
+                                funds there, these are not the funds we're informing you about.</font>
+                        </p>
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4"><strong>Why Should I Use Your Company?<br></strong>Most of the assets we locate aren't available by searching the internet, and it's unlikely that without the aid of a company like ours, that you'll be notified of their existence
+                                by the agency holding them.</font>
+                        </p>
+                        <p style="color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-weight: normal;">
+                            <font size="4"><strong>More Questions?<br></strong>Just give us a call! We're here to serve you. Call (832) 582 - 0662 today.</font>
+                        </p>
+                    </h1>
+                </div>
+            </div>
+            <div data-silex-type="image" class="editable-style image-element silex-id-1499376312046-85" data-silex-id="silex-id-1499376312046-85"><img src="assets/clocks.jpg" class="silex-element-content"></div>
+            <div data-silex-type="text" class="editable-style text-element silex-id-1499376312049-87" data-silex-id="silex-id-1499376312049-87">
+                <div class="silex-element-content normal">
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">Now, be careful, because these funds are held for only a brief period of time, after which the agency responsible for them&nbsp;may be&nbsp;permitted to seize them through a process called "escheatment."</font>
+                    </p>
+                    <p style="font-family: Arial, Helvetica, sans-serif; background-color: rgb(255, 255, 255);">
+                        <font size="4">We think private citizens losing their funds to faceless government agencies (a system rooted in feudal 16th century England) is completely unfair and we are determined to prevent this from happening to anyone, especially you.</font>
+                    </p>
+                </div>
+            </div>
+            <div data-silex-type="text" class="editable-style text-element paragraph silex-id-1499376312048-86" data-silex-id="silex-id-1499376312048-86">
+                <div class="silex-element-content normal">
+                    <h1 class="heading1">Questions?</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-silex-type="container" class="prevent-draggable container-element editable-style silex-id-1484949434473-3 section-element" data-silex-id="silex-id-1484949434473-3">
+        <div data-silex-type="container" class="editable-style silex-element-content website-width silex-id-1484949434473-2 silex-container-content container-element prevent-draggable" data-silex-id="silex-id-1484949434473-2">
+
+            <div data-silex-type="container" class="editable-style container-element hide-on-mobile silex-id-1499356627783-7" data-silex-id="silex-id-1499356627783-7">
+                <div data-silex-type="container" class="editable-style container-element editable-plugin-created silex-id-1499356627784-8" data-silex-id="silex-id-1499356627784-8">
+                    <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499356627784-9" data-silex-id="silex-id-1499356627784-9" href="#!page-home">
+                        <div class="silex-element-content normal">
+                            <div style="text-align: center;">Home</div>
+                        </div>
+                    </a>
+                </div>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1499356627785-10" data-silex-id="silex-id-1499356627785-10">
+                    <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499356627785-11" data-silex-id="silex-id-1499356627785-11" href="#!page-our-company">
+                        <div class="silex-element-content normal">
+                            <div style="text-align: center;">Our Company</div>
+                        </div>
+                    </a>
+                </div>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1499356627786-12" data-silex-id="silex-id-1499356627786-12">
+
+                    <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499356627786-13" data-silex-id="silex-id-1499356627786-13" href="#!page-how-it-works-">
+                        <div class="silex-element-content normal">
+                            <div style="text-align: center;">How It Works</div>
+                        </div>
+                    </a>
+                </div>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1499356627786-14" data-silex-id="silex-id-1499356627786-14">
+
+                    <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499356627787-15 page-link-active" data-silex-id="silex-id-1499356627787-15" href="#!page-questions-">
+                        <div class="silex-element-content normal">
+                            <div style="text-align: center;">Questions</div>
+                        </div>
+                    </a>
+                </div>
+                <a data-silex-type="text" class="editable-style text-element nav-element page-home paged-element silex-id-1499356627787-16 page-link-active" data-silex-id="silex-id-1499356627787-16" href="#!page-questions-">
+                    <div class="silex-element-content normal">
+                        <div style="text-align: center;">Contact Us</div>
+                    </div>
+                </a>
+                <div data-silex-type="container" class="editable-style editable-plugin-created container-element silex-id-1499376081519-81 page-questions- paged-element" data-silex-id="silex-id-1499376081519-81">
+
+
+                    <a data-silex-type="text" class="editable-style text-element nav-element silex-id-1499376081561-82" data-silex-id="silex-id-1499376081561-82" href="#!page-contact-us">
+                        <div class="silex-element-content normal">
+                            <div style="text-align: center;">Contact Us</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body></html>
